@@ -3,19 +3,63 @@
 /***************/
 
 /* Color Palette */
+.color-1 {
+    
+background: red;
+}
+
+.color-2 {
+    
+background: white;
+}
+
+.color-3 {
+    
+background: blue;
+}
 
 
 /* Textures or Patterns*/
 
+.pattern-1 {
+    
+    background: url("http://vignette2.wikia.nocookie.net/shipoffools/images/4/4d/Murica_3.png/revision/latest?cb=20140212153712") no-repeat;
+    background-size: cover;
+}
 
 /* Imagery */
 
 
 /* Icons */
-
+.icon-1 {
+    border: none;
+}
 
 /* Navigation */
+nav li {
+    list-style: none;
+    color: white;
+    background: black;
+}
 
+nav a:link {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
+nav a:hover {
+    color: white;
+}
+button {
+
+    padding: 1em;
+    background: black;
+    color: white;
+    border: none;
+}
 /* Typography */
-
+h1 , h2 {
+    
+    font-family: 'Henny Penny', cursive;
+}
