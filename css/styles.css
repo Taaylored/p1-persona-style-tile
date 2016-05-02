@@ -2,64 +2,163 @@
 /* YOUR STYLES */
 /***************/
 
+/*global*/
+body {
+    
+    background: white;
+};
+}
+
 /* Color Palette */
 .color-1 {
     
-background: red;
+background: #DC3522;
 }
 
 .color-2 {
     
-background: white;
+background: #D9CB9E;
 }
 
 .color-3 {
     
-background: blue;
+background: #374140;
 }
 
+.color-4 {
+    
+    background: #2A2C2B;
+}
+
+.color-5 {
+    background: #1E1E20;
+}
 
 /* Textures or Patterns*/
 
 .pattern-1 {
     
-    background: url("http://vignette2.wikia.nocookie.net/shipoffools/images/4/4d/Murica_3.png/revision/latest?cb=20140212153712") no-repeat;
+    background: url("../img/starry-sky.jpg") no-repeat;
+    background-size: cover;
+}
+
+.pattern-2 {
+    
+    background: url("../img/gravel_texture.jpg") no-repeat;
+    background-size: cover;
+}
+
+.pattern-3 {
+    
+    background: url("../img/rough-texture.jpg") no-repeat;
+    background-size: cover;
+}
+
+.pattern-4 {
+    
+    background: url("../img/smooth-shirt-outside-texture.jpg") no-repeat;
+    background-size: cover;
+}
+
+.pattern-5 {
+    
+    background: url("../img/texture_roughgreen.jpg") no-repeat;
     background-size: cover;
 }
 
 /* Imagery */
 
 
+
+
 /* Icons */
 .icon-1 {
+    
+    border: none;
+}
+
+.icon-2 {
+    border: none;
+}
+
+.icon-3 {
+    border: none;
+}
+
+.icon-4 {
+    border: none;
+}
+
+.icon-5 {
     border: none;
 }
 
 /* Navigation */
 nav li {
     list-style: none;
-    color: white;
-    background: black;
+    color: #DC3522;
+    
+    margin: .5em;
+    padding: .5em;
+    border-radius: 5px;
 }
 
 nav a:link {
-    text-decoration: none;
+    text-decoration: NONE;
     text-transform: uppercase;
     letter-spacing: 2px;
+    color: #2A2C2B;
+    
 }
 
 nav a:hover {
+    color: #DC3522;
+}
+button:hover {
     color: white;
 }
 button {
-
-    padding: 1em;
-    background: black;
-    color: white;
-    border: none;
+background: #2A2C2B;
+    padding: .5em;
+    color: #DC3522;
+    border: 2px solid #2A2C2B;
+    border-radius: 15px;
+    
 }
 /* Typography */
-h1 , h2 {
+@import url(https://fonts.googleapis.com/css?family=Muli:400,300);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,700);
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 2em;
+    color: #DC3522;
+    font-family: font-family: 'Muli', sans-serif;
+    font-weight: 300;
+}
+
+h1 , h3 {
     
-    font-family: 'Henny Penny', cursive;
+    font-family: font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    color: #1E1E20;
+}
+
+p {
+    font-family: 'Crimson Text', serif;
+    color: #1E1E20;
+}
+/*Links*/
+a:hover {
+    
+    color: #374140;
+}
+
+a {
+    text-decoration: underline;
+    color: #DC3522;
+    
+    
 }
